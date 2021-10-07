@@ -1,0 +1,97 @@
+Error Notes:
+-1 629ab8e5
+------------------------------------------------------
+PROGRAM VERSION: 1.16.1.1
+COMPUTER NAME: DESKTOP-NEKC3A4
+USER NAME:	 skywo
+TIME: 07/10/21 21:40:29.502
+INFO: 
+
+Exception code: C0000005 ACCESS_VIOLATION
+Fault address:	78419956 01:00028956 D:\22yourspring\SYSIA\Starcraft\bwapi-data\AI\SYSIA_TEST.dll
+
+Registers:
+EAX:FC00004E
+EBX:0019FBD4
+ECX:00007300
+EDX:000000C9
+ESI:0019FB90
+EDI:0019FB9B
+CS:EIP:0023:78419956
+SS:ESP:002B:0019FADC EBP:0019FADC
+DS:002B ES:002B FS:0053 GS:002B
+Flags:00210206
+Call stack:
+Address  Frame    Logical addr  Module
+78419956 0019FADC 0001:00028956 D:\22yourspring\SYSIA\Starcraft\bwapi-data\AI\SYSIA_TEST.dll
+7840D028 0019FAF8 0001:0001C028 D:\22yourspring\SYSIA\Starcraft\bwapi-data\AI\SYSIA_TEST.dll
+7844D133 0019FBC8 0001:0005C133 D:\22yourspring\SYSIA\Starcraft\bwapi-data\AI\SYSIA_TEST.dll
+7844EF57 0019FCB0 0001:0005DF57 D:\22yourspring\SYSIA\Starcraft\bwapi-data\AI\SYSIA_TEST.dll
+78474F28 0019FD00 0001:00083F28 D:\22yourspring\SYSIA\Starcraft\bwapi-data\AI\SYSIA_TEST.dll
+100359C8 0019FD20 0001:000349C8 D:\22yourspring\SYSIA\Starcraft\bwapi-data\BWAPI.dll
+100432C3 0019FD70 0001:000422C3 D:\22yourspring\SYSIA\Starcraft\bwapi-data\BWAPI.dll
+1004EB29 0019FDD0 0001:0004DB29 D:\22yourspring\SYSIA\Starcraft\bwapi-data\BWAPI.dll
+1004B115 0019FDF8 0001:0004A115 D:\22yourspring\SYSIA\Starcraft\bwapi-data\BWAPI.dll
+004D9908 0019FE0C 0001:000D8908 D:\22yourspring\SYSIA\Starcraft\StarCraft.exe
+004D9A6F 0019FE1C 0001:000D8A6F D:\22yourspring\SYSIA\Starcraft\StarCraft.exe
+004E07FA 0019FE3C 0001:000DF7FA D:\22yourspring\SYSIA\Starcraft\StarCraft.exe
+004E0B20 0019FE48 0001:000DFB20 D:\22yourspring\SYSIA\Starcraft\StarCraft.exe
+00404DA5 0019FF70 0001:00003DA5 D:\22yourspring\SYSIA\Starcraft\StarCraft.exe
+76F9FA29 0019FF80 0001:0000FA29 C:\windows\System32\KERNEL32.DLL
+77C47A7E 0019FFDC 0001:00066A7E C:\windows\SYSTEM32\ntdll.dll
+77C47A4E 0019FFEC 0001:00066A4E C:\windows\SYSTEM32\ntdll.dll
+
+Stack bytes:
+0x0019fadc: f8 fa 19 00  28 d0 40 78  73 00 00 fc  4e 00 00 fc  ....(.@xs...N...
+0x0019faec: 43 00 00 00  90 f2 72 0d  50 fb 19 00  c8 fb 19 00  C.....r.P.......
+0x0019fafc: 33 d1 44 78  90 fb 19 00  b4 50 3d d3  10 f3 53 0d  3.Dx.....P=...S.
+0x0019fb0c: c0 f7 54 0d  10 f3 53 0d  c0 f7 54 0d  b8 34 58 0d  ..T...S...T..4X.
+0x0019fb1c: 00 00 00 00  0f 00 00 00  05 00 00 00  00 65 66 65  .............efe
+0x0019fb2c: 6e 64 00 00  bc d9 9e aa  56 f6 7c 40  4a 0e 00 00  nd......V.|@J...
+0x0019fb3c: a3 09 00 00  06 00 00 00  4a 0e 00 80  6f 72 65 00  ........J...ore.
+0x0019fb4c: 10 f3 53 0d  00 00 00 00  00 00 00 00  00 00 00 00  ..S.............
+0x0019fb5c: 07 00 00 00  00 00 00 00  00 00 00 00  00 00 00 fc  ................
+0x0019fb6c: 72 00 00 00  4d 00 00 00  73 00 00 fc  4e 00 00 fc  r...M...s...N...
+0x0019fb7c: 43 00 00 00  00 00 00 00  00 00 00 00  90 f2 72 0d  C.............r.
+0x0019fb8c: 2f db 82 41  73 00 00 fc  4e 00 00 fc  00 00 00 01  /..As...N.......
+0x0019fb9c: 90 f2 72 0d  00 00 00 00  90 f2 72 0d  00 00 00 00  ..r.......r.....
+0x0019fbac: 70 01 00 00  e8 3a 68 00  b4 50 3d d3  d4 fb 19 00  p....:h..P=.....
+0x0019fbbc: a4 fc 19 00  50 32 4b 78  00 00 00 00  b0 fc 19 00  ....P2Kx........
+0x0019fbcc: 57 ef 44 78  b0 fc 19 00  bc fc 19 00  57 ef 44 78  W.Dx........W.Dx
+0x0019fbdc: cc 57 3d d3  c8 5d 73 0d  f8 47 67 0c  00 00 00 00  .W=..]s..Gg.....
+0x0019fbec: 00 00 40 40  00 00 00 00  00 00 00 00  00 00 00 00  ..@@............
+0x0019fbfc: 00 00 00 00  00 00 00 00  ae 09 47 78  00 00 00 00  ..........Gx....
+0x0019fc0c: 00 00 90 3f  01 50 75 95  88 fc 19 00  4a 0e 00 00  ...?.Pu.....J...
+0x0019fc1c: a3 09 00 00  00 00 00 00  00 00 f0 3f  f6 84 73 ce  ...........?..s.
+0x0019fc2c: d3 46 46 40  40 39 68 0d  30 39 68 0d  4c 0e 00 00  .FF@@9h.09h.L...
+0x0019fc3c: bd 09 00 00  10 f3 53 0d  2b 00 00 00  68 9f 60 0c  ......S.+...h.`.
+0x0019fc4c: f4 fc 19 00  b8 34 58 0d  a8 34 58 0d  9a 99 99 99  .....4X..4X.....
+0x0019fc5c: 99 99 09 40  c8 5d 73 0d  f8 47 67 00  90 f2 72 0d  ...@.]s..Gg...r.
+0x0019fc6c: 50 11 7d 04  0a 00 00 00  00 00 00 00  d0 0d 00 00  P.}.............
+0x0019fc7c: 0d 07 00 00  00 00 00 00  50 11 7d 04  0a 00 00 00  ........P.}.....
+0x0019fc8c: 00 00 00 00  d0 0d 00 00  0d 07 00 00  00 00 00 00  ................
+0x0019fc9c: cc 57 3d d3  bc fc 19 00  f4 fc 19 00  ca 33 4b 78  .W=..........3Kx
+0x0019fcac: 12 00 00 00  00 fd 19 00  28 4f 47 78  80 96 98 00  ........(OGx....
+0x0019fcbc: 08 fd 19 00  28 4f 47 78  7c 56 3d d3  18 08 94 00  ....(OGx|V=.....
+0x0019fccc: f8 de 5a 0d  f8 17 80 7d  48 45 00 00  10 13 7c 7d  ..Z....}HE....|}
+0x0019fcdc: 48 45 00 00  d0 01 83 00  f8 47 67 0c  00 7d 00 00  HE.......Gg..}..
+0x0019fcec: 00 80 00 00  08 fd 19 00  64 fd 19 00  b0 4a 4b 78  ........d....JKx
+0x0019fcfc: ff ff ff ff  20 fd 19 00  c8 59 03 10  e8 7e 7f 0c  .... ....Y...~..
+0x0019fd0c: c8 59 03 10  18 08 94 00  f8 de 5a 0d  a0 23 fa 76  .Y........Z..#.v
+0x0019fd1c: 34 fd 19 00  70 fd 19 00  c3 32 04 10  18 08 94 00  4...p....2......
+0x0019fd2c: 00 00 00 00  00 00 00 00  00 7d 00 00  20 7d 00 00  .........}.. }..
+0x0019fd3c: 00 00 00 00  00 00 00 00  00 00 00 00  02 00 00 00  ................
+0x0019fd4c: 00 fd 19 00  c7 b5 02 10  24 00 00 00  be 5e 03 10  ........$....^..
+0x0019fd5c: f4 95 08 10  18 08 94 00  c4 fd 19 00  27 a5 05 10  ............'...
+0x0019fd6c: 01 00 00 00  d0 fd 19 00  29 eb 04 10  40 01 00 00  ........)...@...
+0x0019fd7c: b0 fd 19 00  00 7d 00 00  20 7d 00 00  00 00 00 00  .....}.. }......
+0x0019fd8c: 00 00 00 00  00 00 00 00  02 00 00 00  00 23 fa 76  .............#.v
+0x0019fd9c: 90 a9 80 0d  01 8f 9a 62  d0 ab 80 0d  01 02 20 00  .......b...... .
+0x0019fdac: 00 00 00 00  7f 02 00 00  00 00 00 00  00 00 00 00  ................
+0x0019fdbc: 58 b6 95 00  00 00 00 00  60 ff 19 00  73 aa 05 10  X.......`...s...
+0x0019fdcc: ff ff ff ff  f8 fd 19 00  15 b1 04 10  53 97 4d 00  ............S.M.
+
+Code bytes:
+0x78419956: 8a 84 01 d0  ba 4e 78 5d  c3 8b 4d 08  8b 45 0c c1  .....Nx]..M..E..
+
+

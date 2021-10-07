@@ -1,0 +1,69 @@
+2021-09-29 오후 11:35:41 33424 Logging started
+2021-09-29 오후 11:35:41 33424 Begin Startup
+2021-09-29 오후 11:35:41 33424 Chaosauncher 0.5.4.4 on NT 6.2.9200  at D:\22yourspring\SYSIA\BWAPI\Chaoslauncher\Chaoslauncher.exe
+2021-09-29 오후 11:35:41 33424 Load Settings
+2021-09-29 오후 11:35:41 33424 GamePath: D:\22yourspring\SYSIA\Starcraft\
+2021-09-29 오후 11:35:41 33424 Load Plugins
+2021-09-29 오후 11:35:41 33424 AdvLoaderPluginPath: \Plugins\
+2021-09-29 오후 11:35:41 33424 Loading BWL4-Plugin D:\22yourspring\SYSIA\BWAPI\Chaoslauncher\iccscbn.icc
+2021-09-29 오후 11:35:41 33424 Plugin loaded ICCup
+2021-09-29 오후 11:35:41 33424 Loading BWL4-Plugin D:\22yourspring\SYSIA\BWAPI\Chaoslauncher\Plugins\APMAlert.bwl
+2021-09-29 오후 11:35:41 33424 Plugin loaded APMAlert (1.16.1)
+2021-09-29 오후 11:35:41 33424 Loading BWL4-Plugin D:\22yourspring\SYSIA\BWAPI\Chaoslauncher\Plugins\BWAPI_PluginInjector.bwl
+2021-09-29 오후 11:35:41 33424 Plugin loaded BWAPI 4.1.2 Injector [RELEASE]
+2021-09-29 오후 11:35:41 33424 Loading BWL4-Plugin D:\22yourspring\SYSIA\BWAPI\Chaoslauncher\Plugins\BWAPI_PluginInjectord.bwl
+2021-09-29 오후 11:35:41 33424 Plugin loaded BWAPI 4.1.2 Injector [DEBUG]
+2021-09-29 오후 11:35:41 33424 Loading BWL4-Plugin D:\22yourspring\SYSIA\BWAPI\Chaoslauncher\Plugins\Chaosplugin.bwl
+2021-09-29 오후 11:35:41 33424 Plugin loaded Chaosplugin for 1.16.1
+2021-09-29 오후 11:35:41 33424 Loading BWL4-Plugin D:\22yourspring\SYSIA\BWAPI\Chaoslauncher\Plugins\LatencyChanger.bwl
+2021-09-29 오후 11:35:41 33424 Plugin loaded LatencyChanger for 1.16.1
+2021-09-29 오후 11:35:41 33424 Loading BWL4-Plugin D:\22yourspring\SYSIA\BWAPI\Chaoslauncher\Plugins\repfix.bwl
+2021-09-29 오후 11:35:41 33424 Plugin loaded RepFix
+2021-09-29 오후 11:35:41 33424 Loading BWL4-Plugin D:\22yourspring\SYSIA\BWAPI\Chaoslauncher\Plugins\RWAPlayer.bwl
+2021-09-29 오후 11:35:41 33424 Plugin loaded RWAPlayer (1.16.1)
+2021-09-29 오후 11:35:41 33424 Loading BWL4-Plugin D:\22yourspring\SYSIA\BWAPI\Chaoslauncher\Plugins\RWARecorder.bwl
+2021-09-29 오후 11:35:41 33424 Plugin loaded RWARecorder (1.16.1)
+2021-09-29 오후 11:35:41 33424 Loading BWL4-Plugin D:\22yourspring\SYSIA\BWAPI\Chaoslauncher\Plugins\Stormplugin.bwl
+2021-09-29 오후 11:35:41 33424 Plugin loaded Stormplugin for 1.16.1
+2021-09-29 오후 11:35:41 33424 Loading BWL4-Plugin D:\22yourspring\SYSIA\BWAPI\Chaoslauncher\Plugins\wmode.bwl
+2021-09-29 오후 11:35:41 33424 Plugin loaded W-MODE 1.02
+2021-09-29 오후 11:35:41 33424 Loading BWL4-Plugin D:\22yourspring\SYSIA\BWAPI\Chaoslauncher\ResExpander\ResHackLoader.bwl
+2021-09-29 오후 11:35:41 33424 Plugin loaded Resolution Hack Loader
+2021-09-29 오후 11:35:41 33424 Load Tools
+2021-09-29 오후 11:35:41 33424 Init GUI
+2021-09-29 오후 11:35:41 33424 Get Starcraftversions
+2021-09-29 오후 11:35:41 33424 Init complete
+2021-09-29 오후 11:38:08 33424 Startbutton
+2021-09-29 오후 11:38:08 33424 Starting Game Starcraft 1.16.1 D:\22yourspring\SYSIA\Starcraft\StarCraft.exe
+2021-09-29 오후 11:38:08 33424 APMAlert (1.16.1) Version 1.0.0.2 Compatible
+2021-09-29 오후 11:38:08 33424 BWAPI 4.1.2 Injector [RELEASE] Version  Compatible
+2021-09-29 오후 11:38:08 33424 W-MODE 1.02 Version 1.0.2 Compatible
+2021-09-29 오후 11:38:08 33424 Obtained DebugPrivilege
+2021-09-29 오후 11:38:08 33424 CreateProcess
+2021-09-29 오후 11:38:08 33424 Call ScSuspended for all active Plugins
+2021-09-29 오후 11:38:08 33424 ApplyPatchSuspended for APMAlert (1.16.1)
+2021-09-29 오후 11:38:08 33424 ApplyPatchSuspended for BWAPI 4.1.2 Injector [RELEASE]
+2021-09-29 오후 11:38:09 33424 ApplyPatchSuspended for W-MODE 1.02
+2021-09-29 오후 11:38:09 33424 ResumeThread
+2021-09-29 오후 11:38:09 33424 WaitForInputIdle
+2021-09-29 오후 11:38:09 33424 Call ScWindowCreated for all active Plugins
+2021-09-29 오후 11:38:09 33424 ApplyPatch for APMAlert (1.16.1)
+2021-09-29 오후 11:38:09 33424 ApplyPatch for BWAPI 4.1.2 Injector [RELEASE]
+2021-09-29 오후 11:38:09 33424 ApplyPatch for W-MODE 1.02
+2021-09-29 오후 11:38:09 33424 Starting Starcraft completed
+2021-09-29 오후 11:38:21 33424 Startbutton
+2021-09-29 오후 11:38:21 33424 Exception at: Global ExceptionHandler class: Exception msg: Starcraft is already running
+2021-09-29 오후 11:38:51 33424 Finishing
+2021-09-29 오후 11:38:51 33424 Unloading Plugin ICCup
+2021-09-29 오후 11:38:51 33424 Unloading Plugin APMAlert (1.16.1)
+2021-09-29 오후 11:38:51 33424 Unloading Plugin BWAPI 4.1.2 Injector [RELEASE]
+2021-09-29 오후 11:38:51 33424 Unloading Plugin BWAPI 4.1.2 Injector [DEBUG]
+2021-09-29 오후 11:38:51 33424 Unloading Plugin Chaosplugin for 1.16.1
+2021-09-29 오후 11:38:51 33424 Unloading Plugin LatencyChanger for 1.16.1
+2021-09-29 오후 11:38:51 33424 Unloading Plugin RepFix
+2021-09-29 오후 11:38:51 33424 Unloading Plugin RWAPlayer (1.16.1)
+2021-09-29 오후 11:38:51 33424 Unloading Plugin RWARecorder (1.16.1)
+2021-09-29 오후 11:38:51 33424 Unloading Plugin Stormplugin for 1.16.1
+2021-09-29 오후 11:38:51 33424 Unloading Plugin W-MODE 1.02
+2021-09-29 오후 11:38:51 33424 Unloading Plugin Resolution Hack Loader
+2021-09-29 오후 11:38:51 33424 Logging ended

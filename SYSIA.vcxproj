@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="SYSIAT|Win32">
+      <Configuration>SYSIAT</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="SYSIAZ|Win32">
+      <Configuration>SYSIAZ</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\BWEB\Block.cpp" />
+    <ClCompile Include="Source\BWEB\BWEB.cpp" />
+    <ClCompile Include="Source\BWEB\PathFind.cpp" />
+    <ClCompile Include="Source\BWEB\Station.cpp" />
+    <ClCompile Include="Source\BWEB\Wall.cpp" />
+    <ClCompile Include="Source\BWEM\area.cpp" />
+    <ClCompile Include="Source\BWEM\base.cpp" />
+    <ClCompile Include="Source\BWEM\BaseFinder\BaseFinder.cpp" />
+    <ClCompile Include="Source\BWEM\bwapiExt.cpp" />
+    <ClCompile Include="Source\BWEM\bwem.cpp" />
+    <ClCompile Include="Source\BWEM\cp.cpp" />
+    <ClCompile Include="Source\BWEM\examples.cpp" />
+    <ClCompile Include="Source\BWEM\exampleWall.cpp" />
+    <ClCompile Include="Source\BWEM\graph.cpp" />
+    <ClCompile Include="Source\BWEM\gridMap.cpp" />
+    <ClCompile Include="Source\BWEM\map.cpp" />
+    <ClCompile Include="Source\BWEM\mapDrawer.cpp" />
+    <ClCompile Include="Source\BWEM\mapImpl.cpp" />
+    <ClCompile Include="Source\BWEM\neutral.cpp" />
+    <ClCompile Include="Source\BWEM\tiles.cpp" />
+    <ClCompile Include="Source\BWEM\utils.cpp" />
+    <ClCompile Include="Source\BWEM\winutils.cpp" />
+    <ClCompile Include="Source\Horizon\Horizon.cpp" />
+    <ClCompile Include="Source\SYSIA\ActionManager.cpp" />
+    <ClCompile Include="Source\SYSIA\BuildingManager.cpp" />
+    <ClCompile Include="Source\SYSIA\BuildOrder.cpp" />
+    <ClCompile Include="Source\SYSIA\CombatManager.cpp" />
+    <ClCompile Include="Source\SYSIA\CommandManager.cpp" />
+    <ClCompile Include="Source\SYSIA\Dll.cpp" />
+    <ClCompile Include="Source\SYSIA\GoalManager.cpp" />
+    <ClCompile Include="Source\SYSIA\GridManager.cpp" />
+    <ClCompile Include="Source\SYSIA\LearningManager.cpp" />
+    <ClCompile Include="Source\SYSIA\PlayerInfo.cpp" />
+    <ClCompile Include="Source\SYSIA\PlayerManager.cpp" />
+    <ClCompile Include="Source\SYSIA\ProductionManager.cpp" />
+    <ClCompile Include="Source\SYSIA\ProtossBuildOrder.cpp" />
+    <ClCompile Include="Source\SYSIA\ProtossBuilds.cpp" />
+    <ClCompile Include="Source\SYSIA\PvP.cpp" />
+    <ClCompile Include="Source\SYSIA\PvT.cpp" />
+    <ClCompile Include="Source\SYSIA\PvZ.cpp" />
+    <ClCompile Include="Source\SYSIA\PylonManager.cpp" />
+    <ClCompile Include="Source\SYSIA\ResourceManager.cpp" />
+    <ClCompile Include="Source\SYSIA\ScoutManager.cpp" />
+    <ClCompile Include="Source\SYSIA\SpecialManager.cpp" />
+    <ClCompile Include="Source\SYSIA\StationManager.cpp" />
+    <ClCompile Include="Source\SYSIA\StrategyManager.cpp" />
+    <ClCompile Include="Source\SYSIA\SupportManager.cpp" />
+    <ClCompile Include="Source\SYSIA\SYSIA.cpp" />
+    <ClCompile Include="Source\SYSIA\TargetManager.cpp" />
+    <ClCompile Include="Source\SYSIA\TerrainManager.cpp" />
+    <ClCompile Include="Source\SYSIA\TerranBuildOrder.cpp" />
+    <ClCompile Include="Source\SYSIA\TerranBuilds.cpp" />
+    <ClCompile Include="Source\SYSIA\TransportManager.cpp" />
+    <ClCompile Include="Source\SYSIA\UnitInfo.cpp" />
+    <ClCompile Include="Source\SYSIA\UnitManager.cpp" />
+    <ClCompile Include="Source\SYSIA\UnitMath.cpp" />
+    <ClCompile Include="Source\SYSIA\Util.cpp" />
+    <ClCompile Include="Source\SYSIA\Visuals.cpp" />
+    <ClCompile Include="Source\SYSIA\WallManager.cpp" />
+    <ClCompile Include="Source\SYSIA\WorkerManager.cpp" />
+    <ClCompile Include="Source\SYSIA\ZergBuildOrder.cpp" />
+    <ClCompile Include="Source\SYSIA\ZvP.cpp" />
+    <ClCompile Include="Source\SYSIA\ZvT.cpp" />
+    <ClCompile Include="Source\SYSIA\ZvZ.cpp" />
+    <ClInclude Include="Source\BWEB\Block.h" />
+    <ClInclude Include="Source\BWEB\BWEB.h" />
+    <ClInclude Include="Source\BWEB\JPS.h" />
+    <ClInclude Include="Source\BWEB\PathFind.h" />
+    <ClInclude Include="Source\BWEB\Station.h" />
+    <ClInclude Include="Source\BWEB\Wall.h" />
+    <ClInclude Include="Source\BWEM\area.h" />
+    <ClInclude Include="Source\BWEM\base.h" />
+    <ClInclude Include="Source\BWEM\BaseFinder\BaseFinder.h" />
+    <ClInclude Include="Source\BWEM\bwapiExt.h" />
+    <ClInclude Include="Source\BWEM\bwem.h" />
+    <ClInclude Include="Source\BWEM\cp.h" />
+    <ClInclude Include="Source\BWEM\defs.h" />
+    <ClInclude Include="Source\BWEM\examples.h" />
+    <ClInclude Include="Source\BWEM\exampleWall.h" />
+    <ClInclude Include="Source\BWEM\graph.h" />
+    <ClInclude Include="Source\BWEM\gridMap.h" />
+    <ClInclude Include="Source\BWEM\map.h" />
+    <ClInclude Include="Source\BWEM\mapDrawer.h" />
+    <ClInclude Include="Source\BWEM\mapImpl.h" />
+    <ClInclude Include="Source\BWEM\neutral.h" />
+    <ClInclude Include="Source\BWEM\tiles.h" />
+    <ClInclude Include="Source\BWEM\utils.h" />
+    <ClInclude Include="Source\BWEM\winutils.h" />
+    <ClInclude Include="Source\Horizon\Horizon.h" />
+    <ClInclude Include="Source\SYSIA\ActionManager.h" />
+    <ClInclude Include="Source\SYSIA\BuildingManager.h" />
+    <ClInclude Include="Source\SYSIA\BuildOrder.h" />
+    <ClInclude Include="Source\SYSIA\CombatManager.h" />
+    <ClInclude Include="Source\SYSIA\CommandManager.h" />
+    <ClInclude Include="Source\SYSIA\EventManager.h" />
+    <ClInclude Include="Source\SYSIA\GoalManager.h" />
+    <ClInclude Include="Source\SYSIA\GridManager.h" />
+    <ClInclude Include="Source\SYSIA\Header.h" />
+    <ClInclude Include="Source\SYSIA\LearningManager.h" />
+    <ClInclude Include="Source\SYSIA\PlayerInfo.h" />
+    <ClInclude Include="Source\SYSIA\PlayerManager.h" />
+    <ClInclude Include="Source\SYSIA\ProductionManager.h" />
+    <ClInclude Include="Source\SYSIA\PylonManager.h" />
+    <ClInclude Include="Source\SYSIA\ResourceInfo.h" />
+    <ClInclude Include="Source\SYSIA\ResourceManager.h" />
+    <ClInclude Include="Source\SYSIA\ScoutManager.h" />
+    <ClInclude Include="Source\SYSIA\StationManager.h" />
+    <ClInclude Include="Source\SYSIA\StrategyManager.h" />
+    <ClInclude Include="Source\SYSIA\SupportManager.h" />
+    <ClInclude Include="Source\SYSIA\SYSIA.h" />
+    <ClInclude Include="Source\SYSIA\TargetManager.h" />
+    <ClInclude Include="Source\SYSIA\TerrainManager.h" />
+    <ClInclude Include="Source\SYSIA\TransportManager.h" />
+    <ClInclude Include="Source\SYSIA\UnitInfo.h" />
+    <ClInclude Include="Source\SYSIA\UnitManager.h" />
+    <ClInclude Include="Source\SYSIA\UnitMath.h" />
+    <ClInclude Include="Source\SYSIA\Util.h" />
+    <ClInclude Include="Source\SYSIA\Visuals.h" />
+    <ClInclude Include="Source\SYSIA\WallManager.h" />
+    <ClInclude Include="Source\SYSIA\WorkerManager.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2E63AE74-758A-4607-9DE4-D28E814A6E13}</ProjectGuid>
+    <RootNamespace>ExampleAIModule</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>SYSIA</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SYSIAZ|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SYSIAT|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='SYSIAZ|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='SYSIAT|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='SYSIAZ|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='SYSIAT|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>..\Source\BWEB;..\Source\BWEM;..\Source\Horizon;..\Source\SYSIA;..\..\..\include;$(IncludePath)</IncludePath>
+    <OutDir>..\..\..\..\StarCraft SYSIA\bwapi-data\AI\</OutDir>
+    <LibraryPath>..\..\..\lib;$(LibraryPath)</LibraryPath>
+    <CodeAnalysisRuleSet>RuleSet1.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SYSIAZ|Win32'">
+    <IncludePath>D:\BWAPI\include;D:\BWAPI\Module\SYSIADev\Source\BWEB;D:\BWAPI\Module\SYSIADev\Source\BWEM;$(IncludePath)</IncludePath>
+    <OutDir>..\..\..\..\StarCraft SYSIA\bwapi-data\AI\</OutDir>
+    <LibraryPath>D:\BWAPI\lib;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)Z</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SYSIAT|Win32'">
+    <IncludePath>D:\BWAPI\include;D:\BWAPI\Module\SYSIADev\Source\BWEB;D:\BWAPI\Module\SYSIADev\Source\BWEM;$(IncludePath)</IncludePath>
+    <OutDir>..\..\..\..\StarCraft SYSIA\bwapi-data\AI\</OutDir>
+    <LibraryPath>D:\BWAPI\lib;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)T</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>..\Source\Horizon;..\..\..\include;..\Source\BWEB;..\Source\BWEM;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\..\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>..\..\..\..\StarCraft SYSIA\bwapi-data\AI\</OutDir>
+    <TargetName>$(ProjectName)d</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NOMINMAX;WIN32;_DEBUG;_WINDOWS;_USRDLL;EXAMPLEAIMODULE_EXPORTS;SYSIA_PROTOSS;SYSIA_TERRAN;SYSIA_ZERG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <PreLinkEvent />
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(IntDir)$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>../lib/BWAPId.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NOMINMAX;WIN32;NDEBUG;_WINDOWS;_USRDLL;EXAMPLEAIMODULE_EXPORTS;SYSIA_ZERG;SYSIA_TERRAN;SYSIA_PROTOSS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <PreLinkEvent />
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(IntDir)$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>../lib/BWAPI.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+      <GenerateMapFile>true</GenerateMapFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetDir)$(ProjectName).dll" "C:\Users\Christian\AppData\Roaming\scbw\bots\SYSIAZ\AI\SYSIA.dll"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='SYSIAZ|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NOMINMAX;WIN32;NDEBUG;_WINDOWS;_USRDLL;EXAMPLEAIMODULE_EXPORTS;SYSIA_ZERG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <PreLinkEvent />
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(IntDir)$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>../lib/BWAPI.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='SYSIAT|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NOMINMAX;WIN32;NDEBUG;_WINDOWS;_USRDLL;EXAMPLEAIMODULE_EXPORTS;SYSIA_TERRAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <PreLinkEvent />
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(IntDir)$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>../lib/BWAPI.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\BWEB\Block.cpp">
+      <Filter>BWEB</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEB\BWEB.cpp">
+      <Filter>BWEB</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEB\PathFind.cpp">
+      <Filter>BWEB</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEB\Station.cpp">
+      <Filter>BWEB</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEB\Wall.cpp">
+      <Filter>BWEB</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\BaseFinder\BaseFinder.cpp">
+      <Filter>BWEM\BaseFinder</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\area.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\base.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\bwapiExt.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\bwem.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\cp.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\examples.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\exampleWall.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\graph.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\gridMap.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\map.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\mapDrawer.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\mapImpl.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\neutral.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\tiles.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\utils.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BWEM\winutils.cpp">
+      <Filter>BWEM</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Horizon\Horizon.cpp">
+      <Filter>Horizon</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\ActionManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\BuildingManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\BuildOrder.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\CombatManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\CommandManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\Dll.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\GoalManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\GridManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\LearningManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\PlayerInfo.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\PlayerManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\ProductionManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\ProtossBuildOrder.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\ProtossBuilds.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\PvP.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\PvT.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\PvZ.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\PylonManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\ResourceManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\ScoutManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\SpecialManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\StationManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\StrategyManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\SupportManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\SYSIA.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\TargetManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\TerrainManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\TerranBuildOrder.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\TerranBuilds.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\TransportManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\UnitInfo.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\UnitManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\UnitMath.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\Util.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\Visuals.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\WallManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\WorkerManager.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\ZergBuildOrder.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\ZvP.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\ZvT.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SYSIA\ZvZ.cpp">
+      <Filter>SYSIA</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\BWEB\Block.h">
+      <Filter>BWEB</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEB\BWEB.h">
+      <Filter>BWEB</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEB\JPS.h">
+      <Filter>BWEB</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEB\PathFind.h">
+      <Filter>BWEB</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEB\Station.h">
+      <Filter>BWEB</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEB\Wall.h">
+      <Filter>BWEB</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\BaseFinder\BaseFinder.h">
+      <Filter>BWEM\BaseFinder</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\area.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\base.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\bwapiExt.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\bwem.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\cp.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\defs.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\examples.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\exampleWall.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\graph.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\gridMap.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\map.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\mapDrawer.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\mapImpl.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\neutral.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\tiles.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\utils.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BWEM\winutils.h">
+      <Filter>BWEM</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Horizon\Horizon.h">
+      <Filter>Horizon</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\ActionManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\BuildingManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\BuildOrder.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\CombatManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\CommandManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\EventManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\GoalManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\GridManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\Header.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\LearningManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\PlayerInfo.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\PlayerManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\ProductionManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\PylonManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\ResourceInfo.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\ResourceManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\ScoutManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\StationManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\StrategyManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\SupportManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\SYSIA.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\TargetManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\TerrainManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\TransportManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\UnitInfo.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\UnitManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\UnitMath.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\Util.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\Visuals.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\WallManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SYSIA\WorkerManager.h">
+      <Filter>SYSIA</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BWEM">
+      <UniqueIdentifier>{3e14d27e-deb4-4133-aa73-c5da07446ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BWEB">
+      <UniqueIdentifier>{b8528e1c-6b41-44c6-888b-7c26e95822af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BWEM\BaseFinder">
+      <UniqueIdentifier>{0e1ecd94-9211-4cea-8f45-228b7ee6c529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Horizon">
+      <UniqueIdentifier>{b749054e-38eb-471e-a297-86a0e85b6d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SYSIA">
+      <UniqueIdentifier>{74abad17-2dc8-41e2-933b-93e9cb0249af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
